@@ -1,0 +1,68 @@
+body {
+    background:#F5F5F5;
+}
+
+#wrapper {
+    color: #333;
+    text-align: center;
+}
+
+.point {
+    margin: -10px;
+    position: relative;left:50px;
+    ;
+}
+
+.title {
+    margin-top: 0px;
+}
+
+.output_box {
+    height: 130px;
+    margin: auto;
+    border: solid 2px #333;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#output {
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+}
+
+#img1 {
+    float: right;
+    margin-top: 10px;
+}
+
+#img2 {
+    float: left;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+#btn {
+    width: 200px;
+    height: 200px;
+    background: #F27398;
+    border-radius: 50%;
+    margin: 220px auto;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 0 10px rgb(192, 84, 115);
+    user-select: none;
+}
+
+#btn:hover {
+    opacity: 0.9;
+}
+
+#btn:active {
+    box-shadow: 0 5px rgb(192, 84, 115);
+    margin-top: 225px;
+}
